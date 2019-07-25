@@ -1,0 +1,36 @@
+﻿<div ng-controller="AppCtrl as ctrl" ng-cloak>
+    <md-content class="md-padding" layout-xs="column">
+        <component-Detail heading="ctrl.heading"></component-Detail>
+        <p>Lorem ipsum dolor sit amet, ne quod novum mei. Sea omnium invenire mediocrem at, in lobortis conclusionemque nam. Ne deleniti appetere reprimique pro, inani labitur disputationi te sed. At vix sale omnesque, id pro labitur reformidans accommodare, cum labores honestatis eu. Nec quem lucilius in, eam praesent reformidans no. Sed laudem aliquam ne.</p>
+        <div class="container">
+            <div flex-xs flex-gt-xs="50" layout="row" class="mdl-grid center-items" layout-align="center center">
+                <md-card style="background:{{ctrl.qtclick?'#5fcce0':''}}" ng-click="ctrl.setColorQT()">
+                    <md-card-title>
+                        <md-card-title-text>
+                            <span class="md-headline">Quick Touranment</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content>
+                        <p>Lorem ipsum dolor sit amet, ne quod novum mei. Sea omnium invenire mediocrem at, in lobortis conclusionemque nam. Ne deleniti appetere reprimique pro, inani labitur disputationi te sed. At vix sale omnesque, id pro labitur reformidans accommodare, cum labores honestatis eu. Nec quem lucilius in, eam praesent reformidans no. Sed laudem aliquam ne.</p>
+                    </md-card-content>
+                    <md-card-actions layout="row" layout-align="end center">
+                        <md-button ng-click="ctrl.showAdvanced($event)">Learn More</md-button>
+                    </md-card-actions>
+                </md-card>
+                <md-card style="background:{{ctrl.ewclick?'#5fcce0':''}}" ng-click="ctrl.setColorEW()">
+                    <md-card-title>
+                        <md-card-title-text>
+                            <span class="md-headline">Extensive Wizard</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content>
+                        <p>Lorem ipsum dolor sit amet, ne quod novum mei. Sea omnium invenire mediocrem at, in lobortis conclusionemque nam. Ne deleniti appetere reprimique pro, inani labitur disputationi te sed. At vix sale omnesque, id pro labitur reformidans accommodare, cum labores honestatis eu. Nec quem lucilius in, eam praesent reformidans no. Sed laudem aliquam ne.</p>
+                    </md-card-content>
+                    <md-card-actions layout="row" layout-align="end center">
+                        <md-button ng-click="ctrl.showAdvanced($event)">Learn More</md-button>
+                    </md-card-actions>
+                </md-card>
+            </div>
+        </div>        
+    </md-content>
+</div>

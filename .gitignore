@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FidGrit_SampleApp/bin
+/FidGrit_SampleApp/obj
+/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0
+/.vs/FidGrit_SampleApp/v15/Server/sqlite3
+/.vs/fidgrit_dev/v15
+/.vs/FidGrit_SampleApp/v15
+/.vs
